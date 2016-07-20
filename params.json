@@ -1,0 +1,6 @@
+{
+  "name": "App-testyourears",
+  "tagline": "Perl program to test the tonal precision of your ears",
+  "body": "#App::testyourears#\r\n\r\nThis archive contains the distribution App:testyourears,\r\nversion 0.001.\r\nThis is a program *testyourears* that generates random tones in one\r\near to be matched by a tone sent to the other ear. The discrepancies\r\nare reported in a file which can later be read or plotted.\r\n\r\nRead the file *INSTALL* for installation instructions.\r\n\r\nRead *lib/App/testyourears.pm* for usage instructions and other information.\r\n\r\nThis software is copyright (c) 2016 by W. Luis Mochan.\r\n\r\nThis is free software; you can redistribute it and/or modify it under\r\nthe same terms as the Perl 5 programming language system itself.\r\n\r\nThis work was partially supported by DGAPA-UNAM under grants IN108413\r\nand IN113016.\r\n\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
