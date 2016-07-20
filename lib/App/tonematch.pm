@@ -1,4 +1,4 @@
-package App::testyourears;
+package App::tonematch;
 
 
 use 5.006;
@@ -9,7 +9,7 @@ use warnings;
 
 =head1 NAME
 
-App::testyourears - A script to test the tone perception of your ears.
+App::tonematch - A script to test the tone perception of your ears.
 
 =head1 VERSION
 
@@ -17,11 +17,11 @@ Version 0.001
 
 =cut
 
-$App::testyourears::VERSION=0.001;
+$App::tonematch::VERSION=0.001;
 
 =head1 SYNOPSIS
 
-    $ testyourears
+    $ tonematch
 
 =head1 DESCRIPTION
 

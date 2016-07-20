@@ -1,14 +1,14 @@
-#App::testyourears#
+#App::tonematch#
 
-This archive contains the distribution App:testyourears,
+This archive contains the distribution App::tonematch,
 version 0.001.
-This is a program *testyourears* that generates random tones in one
+This is a program *tonematch* that generates random tones in one
 ear to be matched by a tone sent to the other ear. The discrepancies
 are reported in a file which can later be read or plotted.
 
 Read the file *INSTALL* for installation instructions.
 
-Read *lib/App/testyourears.pm* for usage instructions and other information.
+Read *lib/App/tonematch.pm* for usage instructions and other information.
 
 This software is copyright (c) 2016 by W. Luis Mochan.
 

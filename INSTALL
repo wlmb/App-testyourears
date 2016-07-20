@@ -6,7 +6,7 @@ Afterwards:
 
 Install the package automatically using
 
-$ cpanm App::testyourears
+$ cpanm App::tonematch
 
 Otherwise you can download the package and unpack it to any directory,
 change to it and give the commands:

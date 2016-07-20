@@ -1,5 +1,5 @@
 # Build.PL
-# Use to build the package App::testyourears
+# Use to build the package App::tonematch
 our $VERSION = '0.001';
     
 use strict;
@@ -7,12 +7,12 @@ use warnings;
 use Module::Build;
 
 my $builder = Module::Build->new(
-    module_name=> 'App::testyourears',
-    dist_name  => 'App-testyourears',
+    module_name=> 'App::tonematch',
+    dist_name  => 'App-tonematch',
     dist_author=> [
 	'W. Luis Mochan <mochan@fis.unam.mx>',
 	],
-    dist_version_from => 'lib/App/testyourears.pm',
+    dist_version_from => 'lib/App/tonematch.pm',
     license    => 'perl',
     release_status => 'stable', #stable, testing or unstable
     requires   => { 
@@ -26,8 +26,8 @@ my $builder = Module::Build->new(
     configure_requires => {
 	'Module::Build'                      => '0.4004',
     },
-    script_files => 'script/testyourears',
-    add_to_cleanup  => [ 'App-testyourears-*', '*~'],
+    script_files => 'script/tonematch',
+    add_to_cleanup  => [ 'App-tonematch-*', '*~'],
     create_makefile_pl => 'small',
     );
 $builder->create_build_script();

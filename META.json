@@ -12,7 +12,7 @@
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
       "version" : "2"
    },
-   "name" : "App-testyourears",
+   "name" : "App-tonematch",
    "prereqs" : {
       "configure" : {
          "requires" : {
@@ -33,8 +33,8 @@
       }
    },
    "provides" : {
-      "App::testyourears" : {
-         "file" : "lib/App/testyourears.pm",
+      "App::tonematch" : {
+         "file" : "lib/App/tonematch.pm",
          "version" : "0.001"
       }
    },

@@ -78,4 +78,4 @@
 ^MANIFEST\.SKIP
 
 # Avoid archives of this distribution
-\bApp-testyourears-[\d\.\_]+
+\bApp-tonematch-[\d\.\_]+

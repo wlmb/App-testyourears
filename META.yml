@@ -13,10 +13,10 @@ license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: '1.4'
-name: App-testyourears
+name: App-tonematch
 provides:
-  App::testyourears:
-    file: lib/App/testyourears.pm
+  App::tonematch:
+    file: lib/App/tonematch.pm
     version: '0.001'
 requires:
   Tk: '0'
