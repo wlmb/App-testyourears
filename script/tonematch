@@ -5,7 +5,7 @@ use warnings;
 
 
 use Tk;
-use Tk::Knob;
+use Tk::MTDial;
 use Tk::FileSelect;
 use feature qw(say);
 
@@ -38,36 +38,36 @@ my $vr=$vf->Scale(-variable=>\$gr,
     )->pack;
 my $kf=$mw->Frame->pack;
 my $k0=$kf->Frame->pack(-side=>'right');
-$k0->Knob( -width=>100, 
+$k0->MTDial( -width=>100, 
 		  -height=>100,
-		  -knobsize=>49, 
-		  -knobrovariable=>\$v0,
-		  -knobcommand=>\&valor,
-    )->pack->createKnob;
+		  -dialsize=>49, 
+		  -dialrovariable=>\$v0,
+		  -dialcommand=>\&valor,
+    )->pack->createMTDial;
 $k0->Label(-text=>1)->pack;
 my $k1=$kf->Frame->pack(-side=>'right');
-$k1->Knob( -width=>100, 
+$k1->MTDial( -width=>100, 
 		  -height=>100,
-		  -knobsize=>49, 
-		  -knobrovariable=>\$v1,
-		  -knobcommand=>\&valor,
-    )->pack->createKnob;  
+		  -dialsize=>49, 
+		  -dialrovariable=>\$v1,
+		  -dialcommand=>\&valor,
+    )->pack->createMTDial;  
 $k1->Label(-text=>10)->pack;
 my $k2=$kf->Frame->pack(-side=>'right');
-$k2->Knob( -width=>100, 
+$k2->MTDial( -width=>100, 
 		  -height=>100,
-		  -knobsize=>49, 
-		  -knobrovariable=>\$v2,
-		  -knobcommand=>\&valor,
-    )->pack->createKnob;  
+		  -dialsize=>49, 
+		  -dialrovariable=>\$v2,
+		  -dialcommand=>\&valor,
+    )->pack->createMTDial;  
 $k2->Label(-text=>100)->pack;
 my $k3=$kf->Frame->pack(-side=>'right');
-$k3->Knob( -width=>100, 
+$k3->MTDial( -width=>100, 
 		  -height=>100,
-		  -knobsize=>49, 
-		  -knobrovariable=>\$v3,
-		  -knobcommand=>\&valor,
-    )->pack->createKnob;  
+		  -dialsize=>49, 
+		  -dialrovariable=>\$v3,
+		  -dialcommand=>\&valor,
+    )->pack->createMTDial;  
 $k3->Label(-text=>1000)->pack;
 my $label=$mw->Label(-textvariable=>\$lvalor)->pack(-side=>'top');
 my $bf=$mw->Frame->pack();
@@ -95,11 +95,11 @@ my $fin=$obf->Button(-text=>'Finish',
     )->pack(-side=>'left');
 my $h=$mw->Label(
 	-text=> <<'FIN'
-Test the accuracy of your ears.
+Test the accuracy of your hearing.
 Press the (Re)init button to initialize a tone.
 Choose a file to save the results.
 Repeatedly, press the Reference and Current buttons while
-modifying the frequency knobs until you believe both tones
+modifying the frequency dials until you believe both tones
 match. You might want to set the volume for each channel. If the tone
 is inaudible, you can change it by Reiniting.
 After matching a tone, Reinit and repeat the process until you get

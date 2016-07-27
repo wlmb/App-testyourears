@@ -1,6 +1,6 @@
 # Build.PL
 # Use to build the package App::tonematch
-our $VERSION = '0.001';
+our $VERSION = '0.002';
     
 use strict;
 use warnings;
@@ -17,7 +17,7 @@ my $builder = Module::Build->new(
     release_status => 'stable', #stable, testing or unstable
     requires   => { 
 	"Tk" => 0,
-	"Tk::Knob" => 0,
+	"Tk::MTDial" => 0,
     },
     test_requires => {
 	"Test::More" => 0,

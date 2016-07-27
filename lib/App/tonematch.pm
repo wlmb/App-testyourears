@@ -13,11 +13,11 @@ App::tonematch - A script to test the tone perception of your ears.
 
 =head1 VERSION
 
-Version 0.001
+Version 0.002
 
 =cut
 
-$App::tonematch::VERSION=0.001;
+$App::tonematch::VERSION=0.002;
 
 =head1 SYNOPSIS
 
@@ -26,7 +26,7 @@ $App::tonematch::VERSION=0.001;
 =head1 DESCRIPTION
 
 This is a script designed to test the accuracy of the tone
-discrimination of the users ears. Two tones are produced and the user
+discrimination of the users hearing. Two tones are produced and the user
 must vary one of them until both match. The script repeatedly
 generates a tone with a randomly 
 chosen unknown frequency and sends it through your earphones to one of your
@@ -39,7 +39,7 @@ external program or process them with whatever tool he choses.
 
 =head1 INSTRUCTIONS
 
-Test the accuracy of your ears.
+Test the accuracy of your hearing.
 
 Use your headphones/earphones.
 
@@ -48,10 +48,10 @@ Press the (Re)init button to initialize a random tone.
 Choose a file to save the results.
 
 Repeatedly, press the Reference and Current buttons while
-modifying the frequency knobs until you believe both tones
+modifying the frequency dials until you believe both tones
 match. You might want to set the volume for each channel. If the tone
 is inaudible (maybe due to a too high or low frequency), you can
-=change it by Reiniting. 
+change it by Reiniting. 
 
 After matching a tone, Reinit and repeat the process until you get
 tired, and then Stop. 
